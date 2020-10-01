@@ -23,7 +23,6 @@ Banks like our client, Agricultural Bank of China (ABC bank), have the need to c
 The method we will be taking to finish the tool build up will be separated into three parts. While Part I and Part II have similar functions, we will be focusing on the Part I algorithm build up and dashboard design in the first place. 
 In order to complete the Part I functionalities, Web Scraping will first be used to get the results from public search engines, the results will be saved into txt files. Then Topical Analysis will be conducted after finding the top 100 articles to match the sensitive words. The results will include a summary for all top 100 articles and we will only be using the top 10 results. The move further, Sentiment Analysis will be used to identify the sentiment for those articles. The summary reports will be displayed on the dashboard to help the user have a more precise sense of the summary. 
 
-![tree](/Screen Shot 2020-09-28 at 11.22.44 PM.png)
 
 ## Deployment
 

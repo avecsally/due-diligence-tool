@@ -10,13 +10,13 @@ Banks like our client, Agricultural Bank of China (ABC bank), have the need to c
  
 ## Data Preparation
  
-Entity Attributes: There are several types of data that are required in conducting the Due Diligence Tool. First, Entity Attributes are required to complete the search. The content of the Entity Attributes include: Name (required), nationality (not required), age (not required), and etc.. Since banks are protective of their clients information, there is no guarantee that any further information will be provided, but those optional entity attributes will definitely be helpful in conducting a more precise search. 
+- Entity Attributes: There are several types of data that are required in conducting the Due Diligence Tool. First, Entity Attributes are required to complete the search. The content of the Entity Attributes include: Name (required), nationality (not required), age (not required), and etc.. Since banks are protective of their clients information, there is no guarantee that any further information will be provided, but those optional entity attributes will definitely be helpful in conducting a more precise search. 
  
-Search Results: Once the search results are generated, those articles will be saved into txt files for further natural language processing analysis. Each article will be saved into a single file. 
+- Search Results: Once the search results are generated, those articles will be saved into txt files for further natural language processing analysis. Each article will be saved into a single file. 
  
-Sensitive Words: There are two categories of sensitive words in this project: Financial Crime Related Terms and Sanction List. Our client will be providing us a list of words that contain those highly related to potential defamation for the bank, for example: Fraud, Money Laundry, Financial Crime and etc.. Our client also wants to monitor the customers’ activity to see whether there is a sanction violation. There are certain countries that are banned to have any financial activity with the U.S., such as Cuba, North Korea. The list of names and countries is also required to conduct the search. The list of words is stored in an excel file. 
+- Sensitive Words: There are two categories of sensitive words in this project: Financial Crime Related Terms and Sanction List. Our client will be providing us a list of words that contain those highly related to potential defamation for the bank, for example: Fraud, Money Laundry, Financial Crime and etc.. Our client also wants to monitor the customers’ activity to see whether there is a sanction violation. There are certain countries that are banned to have any financial activity with the U.S., such as Cuba, North Korea. The list of names and countries is also required to conduct the search. The list of words is stored in an excel file. 
  
-Sensitive Analysis Stopwords: When conducting the sensitive analysis, a list of stop words is required to finish the process. The list of stop words will include the sentiments or so called identifier to identify the sentiment of an article. 
+- Sensitive Analysis Stopwords: When conducting the sensitive analysis, a list of stop words is required to finish the process. The list of stop words will include the sentiments or so called identifier to identify the sentiment of an article. 
 
 ## Methodology
 
@@ -25,12 +25,14 @@ In order to complete the Part I functionalities, Web Scraping will first be used
 
 ## Deployment
 
-Goal: Build a Due Diligence and Risk Rating Tool for the Department of Compliance Analytics in the Agricultural Bank of China. 
+#### Goal: 
+Build a Due Diligence and Risk Rating Tool for the Department of Compliance Analytics in the Agricultural Bank of China. 
 
-Functionality: The function of the tool will have two main parts which described as following: 
+#### Functionality: 
+The function of the tool will have two main parts which described as following: 
 
 
-Part I: A Random Customer Risk Rating Dashboard
+### Part I: A Random Customer Risk Rating Dashboard
 
 - Target Entity
 
@@ -42,7 +44,7 @@ The keywords will be extracted and count the occurrence in that article then pre
 With those information listed on the dashboard, the Risk Management Team can then determine the level of risk regarding the final results presented. 
 
 
-Part II: Constant Monetization on Certain Customers 
+### Part II: Constant Monetization on Certain Customers 
 
 - Target Customers Monetization
 
